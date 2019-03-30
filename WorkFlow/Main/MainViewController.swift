@@ -14,7 +14,12 @@ class MainViewController: UITabBarController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        print("test>>>>>>>>")
+        
+        viewControllers = [
+            HomeViewController(),
+            ProfileViewController()
+        ]
+        
     }
     
 

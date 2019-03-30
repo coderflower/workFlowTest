@@ -16,6 +16,8 @@
 		B8704DF3224F0D2400120F8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8704DF1224F0D2400120F8E /* LaunchScreen.storyboard */; };
 		B8704DFE224F0D2400120F8E /* WorkFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8704DFD224F0D2400120F8E /* WorkFlowTests.swift */; };
 		B8DEEF0C224F157C00FA9D89 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEEF0B224F157C00FA9D89 /* MainViewController.swift */; };
+		B8DEEF11224F15E600FA9D89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEEF10224F15E600FA9D89 /* HomeViewController.swift */; };
+		B8DEEF15224F160500FA9D89 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEEF14224F160500FA9D89 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B8704DFD224F0D2400120F8E /* WorkFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkFlowTests.swift; sourceTree = "<group>"; };
 		B8704DFF224F0D2400120F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8DEEF0B224F157C00FA9D89 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B8DEEF10224F15E600FA9D89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B8DEEF14224F160500FA9D89 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E71305CC22090A5B3EB26226 /* Pods_WorkFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61759E38B679B79304864DD /* Pods-WorkFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkFlow.debug.xcconfig"; path = "Target Support Files/Pods-WorkFlow/Pods-WorkFlow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +97,7 @@
 			children = (
 				B8704DE8224F0D2300120F8E /* AppDelegate.swift */,
 				B8704DEA224F0D2300120F8E /* ViewController.swift */,
-				B8DEEF0B224F157C00FA9D89 /* MainViewController.swift */,
+				B8DEEF0D224F15C200FA9D89 /* Main */,
 				B8704DEC224F0D2300120F8E /* Main.storyboard */,
 				B8704DEF224F0D2400120F8E /* Assets.xcassets */,
 				B8704DF1224F0D2400120F8E /* LaunchScreen.storyboard */,
@@ -109,6 +113,40 @@
 				B8704DFF224F0D2400120F8E /* Info.plist */,
 			);
 			path = WorkFlowTests;
+			sourceTree = "<group>";
+		};
+		B8DEEF0D224F15C200FA9D89 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B8DEEF0B224F157C00FA9D89 /* MainViewController.swift */,
+				B8DEEF0E224F15D100FA9D89 /* Scenes */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B8DEEF0E224F15D100FA9D89 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B8DEEF13224F15F200FA9D89 /* Profile */,
+				B8DEEF0F224F15D800FA9D89 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B8DEEF0F224F15D800FA9D89 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B8DEEF10224F15E600FA9D89 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B8DEEF13224F15F200FA9D89 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B8DEEF14224F160500FA9D89 /* ProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		C8339A1C94E7E5404DE61FF8 /* Frameworks */ = {
@@ -301,7 +339,9 @@
 			files = (
 				B8DEEF0C224F157C00FA9D89 /* MainViewController.swift in Sources */,
 				B8704DEB224F0D2300120F8E /* ViewController.swift in Sources */,
+				B8DEEF15224F160500FA9D89 /* ProfileViewController.swift in Sources */,
 				B8704DE9224F0D2300120F8E /* AppDelegate.swift in Sources */,
+				B8DEEF11224F15E600FA9D89 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
