@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		B8704DF0224F0D2400120F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8704DEF224F0D2400120F8E /* Assets.xcassets */; };
 		B8704DF3224F0D2400120F8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8704DF1224F0D2400120F8E /* LaunchScreen.storyboard */; };
 		B8704DFE224F0D2400120F8E /* WorkFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8704DFD224F0D2400120F8E /* WorkFlowTests.swift */; };
+		B8DEEF0C224F157C00FA9D89 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEEF0B224F157C00FA9D89 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		B8704DF9224F0D2400120F8E /* WorkFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8704DFD224F0D2400120F8E /* WorkFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkFlowTests.swift; sourceTree = "<group>"; };
 		B8704DFF224F0D2400120F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DEEF0B224F157C00FA9D89 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E71305CC22090A5B3EB26226 /* Pods_WorkFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61759E38B679B79304864DD /* Pods-WorkFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkFlow.debug.xcconfig"; path = "Target Support Files/Pods-WorkFlow/Pods-WorkFlow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 			children = (
 				B8704DE8224F0D2300120F8E /* AppDelegate.swift */,
 				B8704DEA224F0D2300120F8E /* ViewController.swift */,
+				B8DEEF0B224F157C00FA9D89 /* MainViewController.swift */,
 				B8704DEC224F0D2300120F8E /* Main.storyboard */,
 				B8704DEF224F0D2400120F8E /* Assets.xcassets */,
 				B8704DF1224F0D2400120F8E /* LaunchScreen.storyboard */,
@@ -125,7 +128,6 @@
 				13423F36C304D0242F57688F /* Pods-WorkFlowTests.debug.xcconfig */,
 				157E903F0870625C6C95B2BA /* Pods-WorkFlowTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -297,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DEEF0C224F157C00FA9D89 /* MainViewController.swift in Sources */,
 				B8704DEB224F0D2300120F8E /* ViewController.swift in Sources */,
 				B8704DE9224F0D2300120F8E /* AppDelegate.swift in Sources */,
 			);
